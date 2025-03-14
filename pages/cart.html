@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="../styles/cart.css">
+  <link rel="stylesheet" href="../style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header id="navbar-section">
+        <div id="top-text">
+        <div id="top-header-section">
+          <p>Free Shipping, 30 day return or refund gurantee.</p>
+        </div>
+        <div id="sign-in-up">
+          <button>sign in</button>
+          <button>sign up</button>
+        </div>
+        </div>
+      
+        <div id="navbar"><nav>
+          <a href="index.html"><img src="/logo.jpeg" alt="logo"></a>
+          <ul>
+            <li> <a href="/">home</a> </li>
+            <li> <a href="about.html">about</a> </li>
+            <li> <a href="product.html">products</a> </li>
+            <li> <a href="contact.html">contact</a> </li>
+            <li>
+              <a id="cart-button" href="cart.html">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <span id="cart-value">0</span> <!-- Wrap the cart value in a span -->
+              </a>
+            </li></ul>
+        </nav></div>
+      </header>
+
+      <template id="product-cart-template">
+        <div class="product-inner-div" id="cardValue">
+          <h4 id="category"></h4>
+          <div id="img-container-template">
+           <img id="image" src="" alt="">
+          </div>
+         <h2 id="product"></h2>
+         <p id="description"></p>
+         <div id="price-container">
+           <h3 id="price"></h3>
+           <h3 id="actual-price"></h3>
+         </div>
+         <h4 id="stock"></h4>
+         <div id="quantity">
+          <p></p>
+          <div id="increase-decrease">
+            <button id="min">-</button>
+            <p id="result">1</p>
+            <button id="max">+</button>
+          </div>
+         </div>
+         <button id="remove-from-cart"><i class="fa-solid fa-cart-arrow-down"></i> Remove</button></div>
+      </template>
+
+      <section id="addToCart">
+        <div id="addToCart-container">
+            <div id="product-container">
+                <!-- Product items will be dynamically added here -->
+            </div>
+        </div>
+        <div id="productOrder">
+            <div>
+                <p>Sub Total</p>
+                <p id="productSubTotal">0</p>
+            </div>
+            <div>
+                <p>Tax</p>
+                <p id="productTax">Rs : 50</p>
+            </div>
+            <hr>
+            <div>
+                <p>Final Total</p>
+                <p id="productFinalTotal">0</p>
+            </div>
+        </div>
+    </section>
+
+
+  
+<footer id="footer">
+  <script src="/scripts/footer.js"></script>
+</footer>
+  
+  <script type="module" src="../scripts/showAddToCartCards.js"></script>
+  <script type="module" src="../main.js"></script>
+</body>
+</html>

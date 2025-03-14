@@ -1,0 +1,239 @@
+#product-container {
+  margin: 0 auto;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em; /* Add gap between grid items */
+}
+
+#img-container-template {
+  text-align: center;
+  margin: 1em 0;
+}
+
+#img-container-template img {
+  width: 10em;
+  height: 10em;
+  border-radius: 2em;
+  object-fit: contain;
+}
+
+.product-inner-div {
+  margin: 1em; /* Reduce margin for better spacing */
+  border: 2px solid var(--bg-color);
+  padding: 1em;
+  border-radius: 2em;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-inner-div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#description {
+  margin: 1em 0;
+  height: 4em;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.product-inner-div #add-to-cart {
+  margin: 1em 0;
+  width: 8em;
+  height: 2.5em; /* Slightly increase height for better touch targets */
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #ffffff;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 0.5em; /* Add border-radius for a modern look */
+}
+
+#add-to-cart:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+#quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+#price-container {
+  display: flex;
+  align-items: center;
+}
+
+#price {
+  margin-right: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#actual-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.9em;
+}
+
+#increase-decrease {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#increase-decrease p {
+  margin: 0 1em; /* Reduce margin for better spacing */
+  font-size: 1em;
+}
+
+#increase-decrease button {
+  width: 2em; /* Increase button size for better usability */
+  height: 2em;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%; /* Make buttons circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#increase-decrease button:hover {
+  background-color: #333;
+}
+
+#category {
+  background-color: rgb(154, 160, 245);
+  display: inline;
+  padding: 0.4em 0.6em;
+  border-radius: 2em;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+#stock {
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  #product-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+  }
+
+  .product-inner-div {
+    margin: 0.5em; /* Reduce margin for smaller screens */
+  }
+
+  #img-container-template img {
+    width: 8em;
+    height: 8em;
+  }
+
+  #description {
+    font-size: 0.8em;
+  }
+
+  #price {
+    font-size: 1em;
+  }
+
+  #actual-price {
+    font-size: 0.8em;
+  }
+
+  #increase-decrease p {
+    font-size: 0.9em;
+  }
+
+  #increase-decrease button {
+    width: 1.8em;
+    height: 1.8em;
+  }
+}
+
+@media (max-width: 768px) {
+  #product-container {
+    grid-template-columns: 1fr; /* 1 column for mobile devices */
+  }
+
+  .product-inner-div {
+    margin: 0.5em 0; /* Reduce margin for smaller screens */
+  }
+
+  #img-container-template img {
+    width: 10em;
+    height: 10em;
+  }
+
+  #description {
+    height: auto; /* Allow description to expand */
+  }
+
+  #price {
+    font-size: 1.1em;
+  }
+
+  #actual-price {
+    font-size: 0.9em;
+  }
+
+  #increase-decrease p {
+    font-size: 1em;
+  }
+
+  #increase-decrease button {
+    width: 2em;
+    height: 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  #product-container {
+    width: 88%; 
+    
+    /* Increase width for smaller screens */
+  }
+
+  .product-inner-div {
+    padding: 1em; /* Reduce padding for smaller screens */
+  }
+
+  #img-container-template img {
+    width: 8em;
+    height: 8em;
+  }
+
+  #description {
+    font-size: 0.8em;
+  }
+
+  #price {
+    font-size: 1em;
+  }
+
+  #actual-price {
+    font-size: 0.8em;
+  }
+
+  #increase-decrease p {
+    font-size: 0.9em;
+  }
+
+  #increase-decrease button {
+    width: 1.8em;
+    height: 1.8em;
+  }
+}

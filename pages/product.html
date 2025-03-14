@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Javascript project</title>
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="icon" href="/favicon.png" type="image/x-icon"> 
+  <link rel="stylesheet" href="/styles/product.css">
+</head>
+<body>
+
+<!-- Header Section -->
+
+<header id="navbar-section">
+  <div id="top-text">
+  <div id="top-header-section">
+    <p>Free Shipping, 30 day return or refund gurantee.</p>
+  </div>
+  <div id="sign-in-up">
+    <button>sign in</button>
+    <button>sign up</button>
+  </div>
+  </div>
+
+  <div id="navbar"><nav>
+    <a href="index.html"><img src="/logo.jpeg" alt="logo"></a>
+    <ul>
+      <li> <a href="/">home</a> </li>
+      <li> <a href="about.html">about</a> </li>
+      <li> <a href="product.html">products</a> </li>
+      <li> <a href="contact.html">contact</a> </li>
+      <li>
+        <a id="cart-button" href="cart.html">
+          <i class="fa-solid fa-cart-arrow-down"></i>
+          <span id="cart-value">0</span> <!-- Wrap the cart value in a span -->
+        </a>
+      </li> </ul>
+  </nav></div>
+</header>
+
+
+
+<!-- cards -->
+
+<div id="card-container">
+  <div class="card">
+    <div class="card-left">
+      <p>new year sale</p>
+<h4>get and extra 50% off</h4>
+<a href="">show now</a>
+    </div>
+    <div class="card-right">
+      <img src="/laptop.avif" alt="laptop">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-left">
+      <p>new year sale</p>
+<h4>get and extra 50% off</h4>
+<a href="">show now</a>
+    </div>
+    <div class="card-right">
+      <img src="/mobiles.avif" alt="mobiles">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-left">
+<p>new year sale</p>
+<h4>get and extra 50% off</h4>
+<a href="">show now</a>
+    </div>
+    <div class="card-right">
+      <img src="/headphones.avif" alt="headphones">
+    </div>
+  </div>
+</div>
+
+<!-- end of cards -->
+
+<div id="policy">
+  <div class="policy-part">
+    <div class="policy-left-part">
+      <i class="fa-solid fa-truck"></i>
+    </div>
+    <div class="policy-right-part">
+      <h4>worldwide Shipping</h4>
+      <p>order above $100</p>
+    </div>
+  </div>
+
+  <div class="policy-part">
+    <div class="policy-left-part">
+      <i class="fa-solid fa-rotate"></i>
+    </div>
+    <div class="policy-right-part">
+      <h4>easy 30 day return</h4>
+      <p>back return in 7 days</p>
+    </div>
+  </div>
+
+  <div class="policy-part">
+    <div class="policy-left-part">
+      <i class="fa-solid fa-hand-holding-dollar"></i>
+    </div>
+    <div class="policy-right-part">
+      <h4>money back gurantee</h4>
+      <p>order above $100</p>
+    </div>
+  </div>
+
+  <div class="policy-part">
+    <div class="policy-left-part">
+      <i class="fa-solid fa-person-circle-check"></i>
+    </div>
+    <div class="policy-right-part">
+      <h4>Easy online support</h4>
+      <p>order above $100</p>
+    </div>
+  </div>
+</div>
+
+
+<h1 style="margin: 0 auto; width: 90%; padding: 1em 0; ">Checkout Hamxa's Store</h1>
+
+
+<div id="product-container">
+
+</div>
+
+<template id="product-template">
+  <div class="product-inner-div" id="cardValue">
+    <h4 id="category"></h4>
+    <div id="img-container-template">
+     <img id="image" src="" alt="">
+    </div>
+   <h2 id="product"></h2>
+   <p id="description"></p>
+   <div id="price-container">
+     <h3 id="price"></h3>
+     <h3 id="actual-price"></h3>
+   </div>
+   <h4 id="stock"></h4>
+   <div id="quantity">
+    <p>Quantity(pieces)</p>
+    <div id="increase-decrease">
+      <button id="min">-</button>
+      <p id="result">1</p>
+      <button id="max">+</button>
+    </div>
+   </div>
+   <button id="add-to-cart"><i class="fa-solid fa-cart-arrow-down"></i> add to cart</button></div>
+</template>
+
+<!-- About Us Section -->
+<main>
+  <section id="about-section">
+    <div class="about-container">
+      <div class="about-content">
+        <h1>About Us</h1>
+        <p>Welcome to <strong>Your Ecommerce Store</strong>, your one-stop destination for high-quality products at affordable prices. We are passionate about delivering the best shopping experience to our customers.</p>
+        <p>Founded in 2023, our mission is to provide a seamless online shopping experience with a wide range of products, fast delivery, and excellent customer service. We believe in quality, sustainability, and innovation.</p>
+        <a href="product.html" class="btn">Explore Our Products</a>
+      </div>
+      <div class="about-image">
+        <img src="/about.jpeg" alt="About Us Image">
+      </div>
+    </div>
+  </section>
+</main>
+
+
+ <!-- Footer Section -->
+
+ <footer id="footer">
+  <script src="../scripts/footer.js"></script>
+</footer>
+
+
+
+<script type="module" src="../main.js"></script>
+
+</body>
+</html>

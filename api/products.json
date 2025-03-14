@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "product": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 99.99,
+      "brand": "Sony",
+      "stock": 50,
+      "description": "Noise-canceling wireless headphones with long battery life and superior sound quality.",
+      "image": "https://th.bing.com/th/id/OIP.16U6RQ928BhA-swDO7BifwHaIt?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 2,
+      "product": "Running Shoes",
+      "category": "Sports",
+      "price": 79.99,
+      "brand": "Nike",
+      "stock": 100,
+      "description": "Lightweight and breathable running shoes designed for comfort and performance.",
+      "image": "https://www.bing.com/th?id=OIP.d-7UFbAaPsT2y3dYpaKm1AHaFb&w=140&h=103&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    },
+    {
+      "id": 3,
+      "product": "Smartwatch",
+      "category": "Electronics",
+      "price": 249.99,
+      "brand": "Apple",
+      "stock": 25,
+      "description": "A stylish and multifunctional smartwatch with fitness tracking, notifications, and more.",
+      "image": "https://www.bing.com/th?id=OIP.yvlfWEw3Ot9vGHX-HyvvJwHaGL&w=150&h=125&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    },
+    {
+      "id": 4,
+      "product": "Coffee Maker",
+      "category": "Kitchenware",
+      "price": 39.99,
+      "brand": "Keurig",
+      "stock": 75,
+      "description": "A single-serve coffee maker for brewing your favorite coffee at home with ease.",
+      "image": "https://www.bing.com/th?id=OIP.RMu_XWfcqI8IPBXcn-X5eQHaHv&w=150&h=157&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    },
+    {
+      "id": 5,
+      "product": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 149.99,
+      "brand": "Razer",
+      "stock": 30,
+      "description": "A high-performance mechanical keyboard with customizable keys and clicky switches.",
+      "image": "https://www.bing.com/th?id=OIP.Zay-cG9Ns_3DE501fniGpQHaEK&w=180&h=101&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    },
+    {
+      "id": 6,
+      "product": "Backpack",
+      "category": "Accessories",
+      "price": 49.99,
+      "brand": "The North Face",
+      "stock": 80,
+      "description": "A durable and stylish backpack perfect for everyday use or outdoor adventures.",
+      "image": "https://www.bing.com/th?id=OIP.6bJmc5eXv1Dlkq1crPnxwAHaIY&w=150&h=171&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    },
+    {
+      "id": 7,
+      "product": "Wireless Charger",
+      "category": "Electronics",
+      "price": 29.99,
+      "brand": "Samsung",
+      "stock": 40,
+      "description": "A convenient wireless charging pad for your smartphone or other compatible devices.",
+      "image": "https://www.bing.com/th?id=OIP.0Mn7-pQxcsNKaHizuzlVMQHaJ3&w=76&h=101&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    },
+    {
+      "id": 8,
+      "product": "Gaming Laptop",
+      "category": "Electronics",
+      "price": 1299.99,
+      "brand": "ASUS",
+      "stock": 15,
+      "description": "A powerful laptop featuring a high-performance graphics card for smooth gameplay.",
+      "image": "https://www.bing.com/th?id=OIP.gbzrheVwg2fNwgBlQGttXQHaEz&w=163&h=105&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    },
+    {
+      "id": 9,
+      "product": "Noise-Canceling",
+      "category": "Electronics",
+      "price": 199.99,
+      "brand": "Bose",
+      "stock": 60,
+      "description": "Over-ear headphones with advanced noise-canceling technology and excellent sound quality.",
+      "image": "https://th.bing.com/th/id/OIP.PgztVKr3d-l_xvF4QrAdkgHaIg?pid=ImgDet&w=179&h=205&c=7&dpr=1.1"
+    }
+]
