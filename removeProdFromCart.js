@@ -1,6 +1,7 @@
 import { getCartProductsFromLS } from "./getCartProducts.js"
 import { ShowToast } from "./ShowToast.js"
 import { updateCartValue } from "./upadateCartValue.js"
+import { updadateCartTotal } from "./updadateCartTotal.js"
 
 export const removeProdFromCart = (id)=>{
 
@@ -15,6 +16,7 @@ export const removeProdFromCart = (id)=>{
     if(removeDiv){
         removeDiv.remove();
         ShowToast("delete",id)
+        updadateCartTotal()
     }
 
     updateCartValue(cartProducts )
