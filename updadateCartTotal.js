@@ -14,7 +14,6 @@ export const updadateCartTotal =()=>{
 
     },initialValue)
 
-    productSubTotal.innerText = `Rs : ${totalProductsPrice}` 
-    // console.log(totalProductsPrice)
-    productFinalTotal.innerText = `Rs : ${totalProductsPrice + 50}`
+    productSubTotal.innerText = `Rs : ${totalProductsPrice}` ;
+    productFinalTotal.innerText = `Rs : ${totalProductsPrice + 50}`;
 }

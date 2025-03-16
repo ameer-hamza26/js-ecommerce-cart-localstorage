@@ -27,7 +27,7 @@ const footer = `
     <div class="footer-section">
       <h3>We Accept</h3>
       <div class="payment-methods">
-        <img src="/public/cards.jpeg" alt="Mastercard">
+        <img src="/cards.jpeg" alt="Mastercard">
       </div>
     </div>
 
